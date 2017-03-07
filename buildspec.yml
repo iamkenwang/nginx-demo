@@ -6,4 +6,4 @@ phases:
       - docker build -t nginx/first_image .
 artifacts:
   files:
-      - '**/*'
+      - nginxcontainer
