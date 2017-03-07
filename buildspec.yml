@@ -4,7 +4,6 @@ phases:
   build:
     commands:
       - docker build -t nginx/first_image .
-
 artifacts:
   files:
-- '**/*'
+      - '**/*'
